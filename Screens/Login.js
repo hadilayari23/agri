@@ -44,7 +44,7 @@ const Login = ({ navigation }) => {
   return (
     <View className="bg-white h-full w-full">
       <StatusBar style="light" />
-      <Image className="h-full w-full absolute " source={require("../assets/background.png")} />
+      <Image className="h-full w-full absolute " source={require("../assets/background1.png")} />
 
       {/* Titre et formulaire */}
       <View className="h-full w-full flex justify-around pt-40 pb-10">
@@ -76,13 +76,13 @@ const Login = ({ navigation }) => {
           <View className="w-full">
             <TouchableOpacity
               onPress={login}
-              className="w-full  p-3 rounded-2xl mb-3 bg-emerald-600"
+              className="w-full  p-3 rounded-2xl mb-3 bg-sky-600"
             >
               <Text className="text-center text-white text-xl font-bold">Login</Text>
             </TouchableOpacity>
           </View>
           <View className="flex-row justify-center">
-            <Text className="text-center">Step into the fields of innovation: Log in to cultivate your smart farming vision</Text>
+            <Text className="text-center">Welcome Back! Dive into Your Smart Aquaculture Dashboard</Text>
           </View>
         </View>
       </View>

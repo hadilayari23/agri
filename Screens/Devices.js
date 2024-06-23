@@ -58,7 +58,7 @@ const Devices = () => {
 
   return (
     <View className="w-full h-max p-5 ">
-      <Button className=" w-20 h-max bg-teal-500 mb-3 ">
+      <Button className=" w-20 h-max bg-sky-600 mb-3 ">
         <Icon
           name="text-box-plus-outline"
           size={25}
@@ -66,11 +66,10 @@ const Devices = () => {
         />
       </Button>
       {filterData.map(({ _id, name, deveui, active }) => (
-        <Card key={_id} className=" h-max bg-teal-500 " >
+        <Card key={_id} className=" h-max bg-sky-600 mb-4" >
           <Card.Content>
             <View>
               <Text className="pb-4">Device Name: {name}</Text>
-              <Text>DevEUI: {deveui}</Text>
             </View>
           </Card.Content>
           <Card.Actions>
@@ -79,11 +78,11 @@ const Devices = () => {
                 <Icon
                   name="water"
                   size={50}
-                  onPress={() => changeState("01")}
+                  onPress={() => changeState("00")}
                 /> : <Icon
                   name="water-off"
                   size={50}
-                  onPress={() => changeState("00")}
+                  onPress={() => changeState("01")}
                 />}
             </View>
             <View>

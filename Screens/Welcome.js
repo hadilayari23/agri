@@ -57,8 +57,8 @@ const Welcome = ({ navigation }) => {
         <Text style={{ fontSize: 50, fontWeight: '800', color: COLORS.white }}>Let's Get</Text>
         <Text style={{ fontSize: 46, fontWeight: '800', color: COLORS.white }}>Started</Text>
         <View style={{ marginVertical: 22 }}>
-          <Text style={{ fontSize: 16, color: COLORS.white, marginVertical: 4 }}>PlantLink provides your farm's digital lifeline</Text>
-          <Text style={{ fontSize: 16, color: COLORS.white }}>offering a Soil Health Checker, Weather Updates, and Irrigation Management .</Text>
+          <Text style={{ fontSize: 16, color: COLORS.white, marginVertical: 4 }}>Welcome to the Future of Sustainable Aquaculture </Text>
+          <Text style={{ fontSize: 16, color: COLORS.white }}>Smart Solutions for Healthier Oceans and Abundant Harvests .</Text>
         </View>
       {  /*<Button
           title="Join Now"
